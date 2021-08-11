@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width: 1199px) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 56.25em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@font-face {
+    font-family: "UtopiaStd";
+    src: url("FONTS/Adobe\ -\ UtopiaStd-Regular.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "NeuzeitGro";
+    src: url("FONTS/URW\ Type\ Foundry\ -\ NeuzeitGro-Reg.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0!important;
+    font-family: UtopiaStd;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: UtopiaStd;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #001c72;
+}
+p {
+    color: #001c72;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p,
+span {
+    font-family: NeuzeitGro;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #E5E5E5;
+}
+header {
+    background-color: #ffffff;
+    padding: 2.5rem 7.9rem;
+}

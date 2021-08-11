@@ -1,0 +1,9 @@
+.main {
+    background-color: $products-bg;
+    padding: 8.1rem 18rem 8.8rem 18rem;
+
+    & ._productsWrapper {
+        height: 60vh;
+        border: 1px solid blue;
+    }
+}

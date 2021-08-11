@@ -1,0 +1,42 @@
+.banner {
+    display: block;
+    width: 100%;
+
+    & ._innerContainer {
+        display: flex;
+        justify-content: center;
+        padding: 2.7rem 18rem;
+
+        & .dog {
+            display: block;
+            width: fit-content;
+            margin-right: 1.8rem;
+        }
+
+        & .welcome {
+            display: block;
+            width: 45.8rem;
+            align-self: center;
+            height: fit-content;
+            & ._title {
+                text-align: center;
+                & h1 {
+                    font-size: 3.2rem;
+                    font-weight: normal;
+                    line-height: 3.8rem;
+                }
+            }
+            & ._text {
+                text-align: center;
+                margin-top: 4px;
+                & p {
+                    font-family: NeuzeitGro;
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                    color: $text-custom;
+                    line-height: 2.3rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .logo {
+  display: block;
+}
+
+.header .logo ._container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.header .navigation {
+  display: block;
+}
+
+.header .navigation ._container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.header .navigation ._container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header .navigation ._container ul li {
+  display: block;
+  list-style-type: none;
+}
+/*# sourceMappingURL=styles.css.map */
