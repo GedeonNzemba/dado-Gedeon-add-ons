@@ -1,0 +1,96 @@
+[
+    {
+        "name" : "Probiotic chew",
+        "price" : "42.29",
+        "description" : "Add to your subscription",
+        "images" : [{
+            "public_id" : "products/dsvbpny402gelwugv2le",
+            "url" : "https://res.cloudinary.com/locataire/image/upload/v1628674800/dado%20products/1_d8jair.png"
+        }],
+        "benefit" : [{
+            "benefit_1": "benefit 1",
+            "benefit_2": "benefit 2",
+            "benefit_3": "benefit 3"
+        }],
+        "category" : "probiotics"
+    },
+    {
+        "name" : "Joint Care Chew",
+        "price" : "42.29",
+        "description" : "Add to your subscription",
+        "images" : [{
+            "public_id" : "products/dsvbpny402gelwugv2le22",
+            "url" : "https://res.cloudinary.com/locataire/image/upload/v1628674800/dado%20products/2_ldjsqw.png"
+        }],
+        "benefit" : [{
+            "benefit_1": "benefit 1",
+            "benefit_2": "benefit 2",
+            "benefit_3": "benefit 3"
+        }],
+        "category" : "Mobility"
+    },
+    {
+        "name" : "Skin & Coat",
+        "price" : "42.29",
+        "description" : "Add to your subscription",
+        "images" : [{
+            "public_id" : "products/dsvbpny402gelwugv2le2",
+            "url" : "https://res.cloudinary.com/locataire/image/upload/v1628674800/dado%20products/3_qvbh6t.png"
+        }],
+        "benefit" : [{
+            "benefit_1": "benefit 1",
+            "benefit_2": "benefit 2",
+            "benefit_3": "benefit 3"
+        }],
+        "category" : "Skin & Coat"
+    },
+
+    {
+        "name" : "Vitality Pro",
+        "price" : "42.29",
+        "description" : "Add to your subscription",
+        "images" : [{
+            "public_id" : "products/dsvbpny402gelwugv2le3",
+            "url" : "https://res.cloudinary.com/locataire/image/upload/v1628674800/dado%20products/4_ofpmxh.png"
+        }],
+        "benefit" : [{
+            "benefit_1": "benefit 1",
+            "benefit_2": "benefit 2",
+            "benefit_3": "benefit 3"
+        }],
+        "category" : "Health & Wellness"
+    },
+
+    {
+        "name" : "Dental Formula",
+        "price" : "42.29",
+        "description" : "Add to your subscription",
+        "images" : [{
+            "public_id" : "products/dsvbpny402gelwugv2le4",
+            "url" : "https://res.cloudinary.com/locataire/image/upload/v1628674800/dado%20products/5_kzfl4d.png"
+        }],
+        "benefit" : [{
+            "benefit_1": "benefit 1",
+            "benefit_2": "benefit 2",
+            "benefit_3": "benefit 3"
+        }],
+        "category" : "Dental"
+    },
+
+    {
+        "name" : "Salmon Bites",
+        "price" : "9.98",
+        "description" : "Add to your subscription",
+        "images" : [{
+            "public_id" : "products/dsvbpny402gelwugv2le5",
+            "url" : "https://res.cloudinary.com/locataire/image/upload/v1628674800/dado%20products/6_x4quvh.png"
+        }],
+        "benefit" : [{
+            "benefit_1": "benefit 1",
+            "benefit_2": "benefit 2",
+            "benefit_3": "benefit 3"
+        }],
+        "category" : ""
+    }
+
+]
