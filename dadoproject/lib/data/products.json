@@ -1,7 +1,9 @@
 [
     {
         "name" : "Probiotic chew",
-        "price" : "42.29",
+        "sell_price": "$31.72",
+        "price" : "$42.29",
+        "promo": "(25% Off)",
         "description" : "Add to your subscription",
         "images" : [{
             "public_id" : "products/dsvbpny402gelwugv2le",
@@ -16,7 +18,9 @@
     },
     {
         "name" : "Joint Care Chew",
-        "price" : "42.29",
+        "sell_price": "$31.72",
+        "price" : "$42.29",
+        "promo": "(25% Off)",
         "description" : "Add to your subscription",
         "images" : [{
             "public_id" : "products/dsvbpny402gelwugv2le22",
@@ -31,7 +35,9 @@
     },
     {
         "name" : "Skin & Coat",
-        "price" : "42.29",
+        "sell_price": "$31.72",
+        "price" : "$42.29",
+        "promo": "(25% Off)",
         "description" : "Add to your subscription",
         "images" : [{
             "public_id" : "products/dsvbpny402gelwugv2le2",
@@ -47,7 +53,9 @@
 
     {
         "name" : "Vitality Pro",
-        "price" : "42.29",
+        "sell_price": "$31.72",
+        "price" : "$42.29",
+        "promo": "(25% Off)",
         "description" : "Add to your subscription",
         "images" : [{
             "public_id" : "products/dsvbpny402gelwugv2le3",
@@ -63,7 +71,9 @@
 
     {
         "name" : "Dental Formula",
-        "price" : "42.29",
+        "sell_price": "$31.72",
+        "price" : "$42.29",
+        "promo": "(25% Off)",
         "description" : "Add to your subscription",
         "images" : [{
             "public_id" : "products/dsvbpny402gelwugv2le4",
@@ -79,7 +89,9 @@
 
     {
         "name" : "Salmon Bites",
+        "sell_price": "$0.00 / $4.99",
         "price" : "9.98",
+        "promo": "(1ˢᵗ month free!)",
         "description" : "Add to your subscription",
         "images" : [{
             "public_id" : "products/dsvbpny402gelwugv2le5",
@@ -90,7 +102,7 @@
             "benefit_2": "benefit 2",
             "benefit_3": "benefit 3"
         }],
-        "category" : ""
+        "category" : "Food"
     }
 
 ]
