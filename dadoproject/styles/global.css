@@ -2,6 +2,7 @@ html {
     font-size: 62.5%;
 }
 
+
 @media (max-width: 1199px) {
     html {
         font-size: 56.25%;
@@ -27,6 +28,10 @@ html {
     font-style: normal;
     font-weight: 400;
 }
+div#__next {
+    position: relative;
+    overflow: hidden;
+}
  .hmg {
      position: relative;
  }
@@ -38,7 +43,7 @@ html {
  }
 aside.styles_menubar__2CLIR.\.showBar {
     transition: 1s ease-in;
-    transform: translate(0rem, 0);   
+    transform: translate(0rem, -3rem);   
  }
  
 html,
