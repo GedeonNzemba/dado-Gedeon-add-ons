@@ -1,0 +1,43 @@
+@include for-tablet-portrait-down {
+    .sidebar {
+        display: block;
+        width: 35rem;
+        background-color: $border;
+        padding: 2.5rem 7.9rem 2.5rem 2.5rem;
+        border-radius: 2rem 10rem 1rem 2rem;
+        & ul {
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            & li {
+                display: block;
+                list-style-type: none;
+                margin-right: 5rem;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:nth-child(6) a p {
+                    color: $text-custom;
+                }
+                & a {
+                    text-decoration: none;
+                    display: flex;
+                    & span {
+                        display: flex;
+                    }
+                    & p {
+                        font-size: 1.8rem;
+                        font-weight: 400;
+                        line-height: 6rem;
+                        padding-left: 1rem;
+                        &:nth-child(6) {
+                            color: $text-custom;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

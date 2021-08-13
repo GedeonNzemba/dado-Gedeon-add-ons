@@ -8,6 +8,7 @@ import Footer from './Components/Footer'
 import { Fragment } from 'react'
 import Banner from './Components/Banner'
 
+
 export default function Home({ products }) {
 
   // Displaying products data in the console

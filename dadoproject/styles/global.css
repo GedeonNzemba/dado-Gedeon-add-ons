@@ -27,13 +27,34 @@ html {
     font-style: normal;
     font-weight: 400;
 }
-
+ .hmg {
+     position: relative;
+ }
+ .hmg::after {
+     content: "";
+     position: absolute;
+     border: .5rem solid rgb(9, 196, 50);
+     right: 3rem;
+ }
+aside.styles_menubar__2CLIR.\.showBar {
+    transition: 1s ease-in;
+    transform: translate(0rem, 0);   
+ }
+ 
 html,
 body {
     padding: 0;
     margin: 0!important;
     font-family: UtopiaStd;
     font-weight: 400;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none!important;
 }
 
 h1,
@@ -74,6 +95,10 @@ header {
     padding: 2.5rem 10.37rem 2.5rem 7.9rem;
     text-align: center;
 }
+.styles_off__1PIAO {
+    width: 16px;
+    height: 16px;
+}
 
 /* category */
 select#div-products {
@@ -84,6 +109,12 @@ select#div-products {
     width: 25rem;
     text-align: center;
     text-transform: uppercase;
+}
+
+@media (max-width: 899px) {
+    header {
+        padding-right: 2.6rem !important;
+    }
 }
 
  @media (min-width: 1400px) {

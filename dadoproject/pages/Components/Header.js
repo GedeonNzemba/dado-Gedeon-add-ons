@@ -10,8 +10,11 @@ export default function Header() {
             <div className={Styles.header}>
                 <section className={Styles.logo}>
                     <div className={Styles._container}>
-                        <a href="#">
+                        <a href="#" className={Styles.Desktop}>
                             <Image src="/logo.svg" alt="Logo" width={192} height={40} />
+                        </a>
+                        <a href="#" className={Styles.Mobile}>
+                            <Image src="/logo.svg" alt="Logo" width={114} height={24} />
                         </a>
                     </div>
                 </section>
@@ -66,12 +69,22 @@ export default function Header() {
 
                 {/* ONLY FOR TABLETS AND MOBILES */}
                 <section id={Styles.hamburger}>
-                    <div onClick={() => {
+                    <div id={Styles.off} onClick={() => {
+
+                        const burgerIcon = document.getElementById('styles_off__1PIAO');
+                        const showBar = document.querySelector('.styles_menubar__2CLIR');
+
+                        burgerIcon.classList.toggle("hmg");
+
+                        showBar.classList.toggle('.showBar');
 
                     }}>
-                        <span id={Styles.notClicked}>
-                            <Image src="/1.svg" alt="menu" width={16} height={16} />
+                        <span >
+                            <Image src="/Hamburger/1.svg" alt="menu" width={16} height={16} />
                         </span>
+                        <aside className={Styles.menubar} >
+                            <Sidebar />
+                        </aside>
                     </div>
                 </section>
             </div>

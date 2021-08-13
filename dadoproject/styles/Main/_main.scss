@@ -44,7 +44,7 @@
                     }
                 }
             }
-            &:last-child {
+            &:nth-child(6) {
                 & ._image {
                     & .product_category {
                         background-color: $food;
@@ -73,6 +73,11 @@
                     font-weight: 400;
                     color: $body-bg;
                     background-color: $probiotic;
+                    @include for-phone-only-down {
+                        font-size: 1.6rem;
+                        line-height: 2.5rem;
+                        padding: 0.8rem 1.6rem;
+                    }
                 }
             }
 
@@ -86,12 +91,20 @@
                         line-height: 2.4rem;
                         text-transform: capitalize;
                         margin-top: 0.8rem;
+                        @include for-phone-only-down {
+                            font-size: 2.5rem;
+                            line-height: 3rem;
+                        }
                     }
                     & p.description {
                         font-size: 1.6rem;
                         line-height: 2.1rem;
                         font-weight: 400;
                         margin-bottom: 2.4rem;
+                        @include for-phone-only-down {
+                            font-size: 1.9rem;
+                            line-height: 2.5rem;
+                        }
                     }
 
                     & .benefitWrapper {
@@ -111,6 +124,10 @@
                                 font-weight: 400;
                                 margin-left: 0.5rem;
                                 text-transform: capitalize;
+                                @include for-phone-only-down {
+                                    font-size: 1.9rem;
+                                    line-height: 2.62rem;
+                                }
                             }
                         }
                     }
@@ -123,6 +140,10 @@
                             font-size: 1.6rem;
                             font-weight: 400;
                             line-height: 2.3rem;
+                            @include for-phone-only-down {
+                                font-size: 1.9rem;
+                                line-height: 2.6rem;
+                            }
                         }
                         & #normalPrice {
                             margin-right: 0.5rem;
@@ -166,6 +187,17 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@include for-phone-only-down {
+    .main {
+        padding: 2.8rem 1.6rem 8rem 1.6rem;
+        & ._products {
+            grid-template-columns: 34.3rem;
+            justify-content: center;
+            margin-top: 6rem;
         }
     }
 }

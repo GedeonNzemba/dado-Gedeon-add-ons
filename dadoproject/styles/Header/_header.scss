@@ -60,11 +60,56 @@
 
 // #####################    _________ RESPONSIVENESS FOR DESKTOP  _________   #########################
 
-@include for-tablet-portrait-down {
-    .main {
+@include for-tablet-portrait-up {
+    #hamburger {
         display: none;
+    }
+}
+
+@include for-tablet-portrait-down {
+    #hamburger {
+        display: block;
+        place-self: center;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .header {
+        width: 100%;
+    }
+    .off {
+        width: fit-content;
+    }
+
+    .menubar {
+        width: fit-content;
+        transform: translate(45rem, 0);
+        position: absolute;
+        right: 5rem;
+        z-index: 999;
+        transition: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        z-index: 999;
+    }
+    #menuBar {
+        transform: translate(45rem, 0);
     }
     #navigation {
         display: none;
+    }
+}
+@include for-phone-only-up {
+    .Mobile {
+        display: none;
+    }
+}
+@include for-phone-only-down {
+    .Desktop {
+        display: none;
+    }
+    .logo {
+        width: 100%;
+        & ._container {
+            margin: 0 auto;
+        }
     }
 }

@@ -8,7 +8,13 @@ export default function Banner() {
         <article className={Styles.banner}>
             <div className={Styles._innerContainer}>
                 <section className={Styles.dog}>
-                    <Image src="/Header/Foryou-dog.png" alt="dog" width={122} height={150} />
+                    <div className={Styles.Desktop}>
+                        <Image src="/Header/Foryou-dog.png" alt="dog" width={122} height={150} />
+                    </div>
+
+                    <center className={Styles.Mobile}>
+                        <Image src="/Header/Foryou-dog.png" alt="dog" width={56.38} height={70} />
+                    </center>
                 </section>
                 <section className={Styles.welcome}>
                     <div className={Styles._title}>

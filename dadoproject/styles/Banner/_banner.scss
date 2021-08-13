@@ -40,3 +40,13 @@
         }
     }
 }
+
+@include for-phone-only-down {
+    ._innerContainer {
+        flex-direction: column;
+        & .dog {
+            margin-right: unset !important;
+            width: 100% !important;
+        }
+    }
+}
