@@ -74,6 +74,18 @@ header {
     padding: 2.5rem 10.37rem 2.5rem 7.9rem;
     text-align: center;
 }
+
+/* category */
+select#div-products {
+    position: absolute;
+    top: 1rem;
+    right: 5rem;
+    padding: .8rem 2rem;
+    width: 25rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
  @media (min-width: 1400px) {
      header {
         display: flex;

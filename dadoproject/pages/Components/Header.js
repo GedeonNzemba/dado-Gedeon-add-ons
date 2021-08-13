@@ -1,5 +1,6 @@
 import React from 'react'
 import Styles from '../../styles/styles.module.scss'
+import Sidebar from "./Hamburger/Sidebar"
 import Image from 'next/image'
 
 
@@ -9,10 +10,12 @@ export default function Header() {
             <div className={Styles.header}>
                 <section className={Styles.logo}>
                     <div className={Styles._container}>
-                        <Image src="/logo.svg" alt="Logo" width={192} height={40} />
+                        <a href="#">
+                            <Image src="/logo.svg" alt="Logo" width={192} height={40} />
+                        </a>
                     </div>
                 </section>
-                <section className={Styles.navigation}>
+                <section className={Styles.navigation} id={Styles.navigation}>
                     <div className={Styles._container}>
                         <ul>
                             <li>
@@ -58,6 +61,17 @@ export default function Header() {
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                </section>
+
+                {/* ONLY FOR TABLETS AND MOBILES */}
+                <section id={Styles.hamburger}>
+                    <div onClick={() => {
+
+                    }}>
+                        <span id={Styles.notClicked}>
+                            <Image src="/1.svg" alt="menu" width={16} height={16} />
+                        </span>
                     </div>
                 </section>
             </div>

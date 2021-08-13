@@ -1,0 +1,31 @@
+.footer {
+    height: 37.1rem;
+    width: 100%;
+    background-color: $text-normal;
+    position: relative;
+
+    & #footer_image {
+        position: absolute;
+        top: 8rem;
+        left: 8rem;
+    }
+
+    & .preFooter {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        width: -webkit-fill-available;
+        margin: 0 8rem;
+        opacity: 0.2;
+        border-top: 0.1rem solid $border_footer;
+
+        & span {
+            color: $border_footer;
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 2.1rem;
+            padding: 1.6rem 0 1.5rem 0;
+        }
+    }
+}

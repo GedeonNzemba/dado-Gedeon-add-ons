@@ -1,4 +1,5 @@
 @import "../variable";
+@import "../mixins";
 .header {
     display: flex;
     justify-content: space-between;
@@ -42,10 +43,10 @@
                             display: flex;
                         }
                         & p {
-                            font-size: 16px;
+                            font-size: 1.6rem;
                             font-weight: 400;
-                            line-height: 23px;
-                            padding-left: 4px;
+                            line-height: 2.3rem;
+                            padding-left: 0.4rem;
                             &:nth-child(6) {
                                 color: $text-custom;
                             }
@@ -58,4 +59,12 @@
 }
 
 // #####################    _________ RESPONSIVENESS FOR DESKTOP  _________   #########################
-// FROM 1800PX AND UP
+
+@include for-tablet-portrait-down {
+    .main {
+        display: none;
+    }
+    #navigation {
+        display: none;
+    }
+}
