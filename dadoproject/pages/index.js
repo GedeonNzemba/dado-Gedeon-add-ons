@@ -14,6 +14,7 @@ export default function Home({ products }) {
   // Displaying products data in the console
   console.log(products)
 
+
   // Make the products image scale down a little
   useEffect(() => {
     const productsImages = document.querySelectorAll("img.styles_product_image__3m3QH");
@@ -36,6 +37,7 @@ export default function Home({ products }) {
 
 
 
+
   return (
     <Fragment>
       <Head>
@@ -46,25 +48,23 @@ export default function Home({ products }) {
       <Banner />
 
       <main className={Styles.main} id={Styles.productContainer}>
-        {/* Dropdown for filter by category */}
 
+        {/* Dropdown for filter by category */}
         <select id="div-products" onChange={(e) => {
           const selectedCategory = e.target.value;
           setFilter(selectedCategory);
         }}>
-          <option href="" value="" disabled selected >Select category</option>
-          <option href="" value="probiotics">probiotics </option>
-          <option href="" value="mobility" >mobility</option>
-          <option href="" value="skin & coat">skin & coat </option>
-          <option href="" value="health & wellness">health & wellness</option>
-          <option href="" value="food">food </option>
+          <option href="#" value="" disabled selected >Select category</option>
+          <option href="#" value="probiotics">probiotics </option>
+          <option href="#" value="mobility" >mobility</option>
+          <option href="#" value="skin & coat">skin & coat </option>
+          <option href="#" value="health & wellness">health & wellness</option>
+          <option href="#" value="food">food </option>
         </select>
 
         {console.log(filter)}
 
         <div className={Styles._products}>
-
-
           {dataFiltered.map(product => {
             return (
               <div className={Styles.product} key={product._id}>

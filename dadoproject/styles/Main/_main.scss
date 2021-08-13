@@ -191,6 +191,46 @@
     }
 }
 
+// #####################    _________ RESPONSIVENESS FOR DESKTOP  _________   #########################
+
+@include for-small-phone {
+    .main {
+        & ._products {
+            grid-template-columns: 80vw !important;
+            justify-content: center;
+            margin-top: 6rem;
+        }
+    }
+}
+
+@include for-phone-only {
+    .main {
+        & ._products {
+            grid-template-columns: 34.3rem;
+            justify-content: center;
+            margin-top: 6rem;
+        }
+    }
+}
+
+@include for-small-tablet-portrait-only {
+    .main {
+        & ._products {
+            grid-template-columns: auto;
+            justify-content: center;
+        }
+    }
+}
+
+@include for-tablet-portrait-down--modified {
+    .main {
+        & ._products {
+            grid-template-columns: auto auto;
+            justify-content: center;
+        }
+    }
+}
+
 @include for-phone-only-down {
     .main {
         padding: 2.8rem 1.6rem 8rem 1.6rem;
@@ -199,5 +239,67 @@
             justify-content: center;
             margin-top: 6rem;
         }
+    }
+}
+
+@include for-small-desktop-only {
+    .main {
+        & ._products {
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            margin-top: 6rem;
+        }
+    }
+}
+
+@include for-medium-desktop-up {
+    .main {
+        & ._products {
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            margin-top: 6rem;
+            & .product {
+                & ._image {
+                    display: flex;
+                    width: unset !important;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@include for-medium-desktop-only {
+    .main {
+        & ._products {
+            & .product {
+                & ._image {
+                    display: flex;
+                    width: unset !important;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@include for-big-desktop-only {
+    .main {
+        & ._products {
+            & .product {
+                & ._image {
+                    display: flex;
+                    width: unset !important;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@include for-big-desktop-up {
+    ._products {
+        max-width: 220rem !important;
+        margin: 0 auto;
     }
 }

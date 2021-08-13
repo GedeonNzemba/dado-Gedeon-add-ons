@@ -41,6 +41,34 @@
     }
 }
 
+// #####################    _________ RESPONSIVENESS FOR DESKTOP  _________   #########################
+
+@include xxxsmall-mobile {
+    .banner {
+        & ._innerContainer {
+            .dog {
+                width: 10rem !important;
+            }
+            .welcome {
+                width: 85vw !important;
+            }
+        }
+    }
+}
+
+@include for-small-phone {
+    .banner {
+        & ._innerContainer {
+            .dog {
+                width: 10rem !important;
+            }
+            .welcome {
+                width: 85vw !important;
+            }
+        }
+    }
+}
+
 @include for-phone-only-down {
     ._innerContainer {
         flex-direction: column;

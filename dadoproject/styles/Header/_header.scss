@@ -60,13 +60,16 @@
 
 // #####################    _________ RESPONSIVENESS FOR DESKTOP  _________   #########################
 
-@include for-tablet-portrait-up {
+@media (min-width: 1347px) {
     #hamburger {
+        display: none;
+    }
+    aside.menubar {
         display: none;
     }
 }
 
-@include for-tablet-portrait-down {
+@media (max-width: 1346px) {
     #hamburger {
         display: block;
         place-self: center;

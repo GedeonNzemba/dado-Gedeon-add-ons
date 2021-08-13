@@ -100,9 +100,8 @@ header {
     padding: 2.5rem 10.37rem 2.5rem 7.9rem;
     text-align: center;
 }
-.styles_off__1PIAO {
-    width: 16px;
-    height: 16px;
+#styles_off__1PIAO img {
+    width: 5rem !important;
 }
 
 /* category */
