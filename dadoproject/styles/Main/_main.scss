@@ -242,6 +242,24 @@
     }
 }
 
+@include for-tablet-landscape-only {
+    .main {
+        & ._products {
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+        }
+    }
+}
+
+@include for-xsmall-desktop-up {
+    .main {
+        & ._products {
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+        }
+    }
+}
+
 @include for-small-desktop-only {
     .main {
         & ._products {
